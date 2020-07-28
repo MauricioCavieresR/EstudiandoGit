@@ -10,3 +10,7 @@ git show [nombreArchivo]: para ver el últimos cambios del archivo.
 git log [nombreArchivo]: para ver el historial de los cambios del archivo.
 git commit -m ["Mensaje"]: para guardar (consolidar) en la rama los cambios.
 (No se puede hacer commit sin un mensaje)
+git diff [indicadorCommit] [indicadorCommitAComparar]: para comparar dos commit de un archivo.
+git reset [indicadorCommit] --[hard | soft]: para volver a un commit anterior.
+(--hard): para volver todo al estado anterior.
+(--soft): para volver al estado anterior, pero guarda los cambios en stage.
