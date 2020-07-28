@@ -8,3 +8,5 @@ git add [nombreArchivo]: para añadir archivos al stage.
 git add .: para añadir todos los cambios al stage.
 git show [nombreArchivo]: para ver el últimos cambios del archivo.
 git log [nombreArchivo]: para ver el historial de los cambios del archivo.
+git commit -m ["Mensaje"]: para guardar (consolidar) en la rama los cambios.
+(No se puede hacer commit sin un mensaje)
