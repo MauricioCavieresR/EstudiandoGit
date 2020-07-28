@@ -1,1 +1,6 @@
 Primer Archivo para aprender git.
+
+Comandos básicos:
+
+git init: para iniciar git en la carpeta actual.
+git status: para verificar el estado de los archivos.
