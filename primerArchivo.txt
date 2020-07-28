@@ -4,3 +4,5 @@ Comandos básicos:
 
 git init: para iniciar git en la carpeta actual.
 git status: para verificar el estado de los archivos.
+git add [nombreArchivo]: para añadir archivos al stage.
+git add .: para añadir todos los cambios al stage.
