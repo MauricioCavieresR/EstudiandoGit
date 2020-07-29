@@ -26,3 +26,4 @@ GitLab:
 
 git remote add origin [urlRepositorioRemoto]: para agregar un origen remoto.
 git pull origin master --allow-unrelated-histories: para fusionar ramas no relacionadas.
+git pull origin master: para obtener los cambios del origen.
