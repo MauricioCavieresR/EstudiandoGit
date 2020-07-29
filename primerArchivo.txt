@@ -7,6 +7,12 @@ git status: para verificar el estado de los archivos.
 git add [nombreArchivo]: para añadir archivos al stage.
 git add .: para añadir todos los cambios al stage.
 git show [nombreArchivo]: para ver el últimos cambios del archivo.
+git --version: para ver la versión de git.
+git log --oneline: para ver el log en una línea.
+git log --decorate: para ver el log mejorado.
+git log --stat: para ver las estadisticas. 
+git log --graph: para ver de forma gráfica los commit.
+git log --graph --oneline --decorate: para ver de forma gráfica y simplificada los commit.
 git log [nombreArchivo]: para ver el historial de los cambios del archivo.
 git commit -m ["Mensaje"]: para guardar (consolidar) en la rama los cambios.
 (No se puede hacer commit sin un mensaje)
