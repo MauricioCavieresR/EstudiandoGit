@@ -14,3 +14,8 @@ git diff [indicadorCommit] [indicadorCommitAComparar]: para comparar dos commit 
 git reset [indicadorCommit] --[hard | soft]: para volver a un commit anterior.
 (--hard): para volver todo al estado anterior.
 (--soft): para volver al estado anterior, pero guarda los cambios en stage.
+git reset HEAD: para eliminar los archivos del Stage.
+
+GitLab:
+
+git remote add origin [urlRepositorioRemoto]: para agregar un origen remoto.
